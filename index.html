@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Astronomía: Explorando el Universo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: url(https://usagif.com/wp-content/uploads/gif/outerspace-78.gif) no-repeat center center fixed; /* Fondo de espacio */
+            background-size: cover; /* Cubrir el fondo */
+            color: #ffffff; /* Texto blanco */
+            margin: 0;
+            padding: 20px;
+        }
+        .parallax {
+            background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-78.gif); /* Cambia esta ruta */
+            height: 100vh; /* Altura del viewport */
+            background-attachment: fixed; /* Efecto parallax */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: -1; /* Envía el fondo detrás del contenido */
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Overlay negro con opacidad */
+            z-index: 0;
+        }
+
+        header {
+            background-color: rgba(0, 116, 217, 0.8); /* Azul celeste con opacidad */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(0, 51, 102, 0.8); /* Color oscuro con opacidad */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px; /* Bordes redondeados */
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(32, 3, 109, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .link {
+            color: #12d900;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog de Astronomía: Explorando el Universo</h1>
+        <nav>
+            <a href="#planetas">Planetas</a>
+            <a href="#constelaciones">Constelaciones</a>
+            <a href="#fenomenos">Fenómenos Astronómicos</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="planetas">
+            <h2>Planetas del Sistema Solar</h2>
+            <p>Los planetas son cuerpos celestes que orbitan alrededor de una estrella. En nuestro sistema solar, hay ocho planetas principales:</p>
+            <ul>
+                <li><strong>Mercurio</strong>: El planeta más cercano al sol, con temperaturas extremas.</li>
+                <li><strong>Venus</strong>: Conocido por su atmósfera densa, es el planeta más caliente.</li>
+                <li><strong>Tierra</strong>: Nuestro hogar, el único planeta conocido con vida.</li>
+                <li><strong>Marte</strong>: Conocido como el planeta rojo, tiene características similares a la Tierra.</li>
+                <li><strong>Júpiter</strong>: El planeta más grande del sistema solar, conocido por su Gran Manch Roja.</li>
+                <li><strong>Saturno</strong>: Famoso por sus espectaculares anillos, compuestos de hielo y roca.</li>
+                <li><strong>Urano</strong>: Un gigante gaseoso con un color azul debido al metano en su atmósfera.</li>
+                <li><strong>Neptuno</strong>: El planeta más lejano, conocido por sus vientos fuertes y su color azul profundo.</li>
+            </ul>
+            <table>
+                <tr>
+                    <th>Planeta</th>
+                    <th>Características</th>
+                </tr>
+                <tr>
+                    <td>Júpiter</td>
+                    <td>El más grande, con una atmósfera de gas y un sistema de lunas fascinante.</td>
+                </tr>
+                <tr>
+                    <td>Saturno</td>
+                    <td>Famoso por sus anillos y su impresionante sistema de lunas.</td>
+                </tr>
+                <tr>
+                    <td>Marte</td>
+                    <td>Con evidencia de agua y exploraciones por rovers como Curiosity.</td>
+                </tr>
+            </table>
+
+            <img src=https://i.pinimg.com/originals/07/19/d7/0719d7d5abe2c15ac72bcb6f06c04b06.gif alt="Planetas del Sistema Solar">
+        </section>
+        <section id="constelaciones">
+            <h2>Constelaciones</h2>
+            <p>Las constelaciones son agrupaciones de estrellas que forman figuras en el cielo. Algunas de las más conocidas son:</p>
+            <ul>
+                <li><strong>Orión</strong>: Fácilmente reconocible por sus tres estrellas en línea.</li>
+                <li><strong>Ursa Mayor</strong>: Contiene la famosa "cucharita" o "gran carro".</li>
+                <li><strong>Escorpio</strong>: Con su brillante estrella Antares, parece un escorpión.</li>
+                <li><strong>Leo</strong>: Representa un león, visible en primavera y verano.</li>
+                <li><strong>Cáncer</strong>: Conocido como el "cangrejo", es menos brillante que otras constelaciones.</li>
+                <li><strong>Virgo</strong>: La constelación más grande del zodiaco.</li>
+            </ul>
+            <img src=https://media.giphy.com/media/kUl4PrRhDO3uM/giphy.gif alt="Constelaciones">
+            <p>Para aprender más sobre las constelaciones, visita <a class="link" href="https://www.constellationsofwords.com/" target="_blank">Constellations of Words</a>.</p>
+        </section>
+        <section id="fenomenos">
+            <h2>Fenómenos Astronómicos</h2>
+            <p>Existen muchos fenómenos fascinantes en el universo, entre ellos:</p>
+            <ul>
+                <li><strong>Eclipses</strong>: Cuando la Luna bloquea la luz del Sol o la Tierra bloquea la luz de la Luna.</li>
+                <li><strong>Lluvias de Meteoros</strong>: Eventos donde múltiples meteoros son visibles en el cielo.</li>
+                <li><strong>Auroras Boreales</strong>: Luces naturales que ocurren en los polos, causadas por partículas solares.</li>
+                <li><strong>Supernovas</strong>: Explosiones de estrellas que marcan el final de su vida.</li>
+                <li><strong>Tránsitos Planetarios</strong>: Cuando un planeta pasa frente a su estrella, como Venus o Mercurio.</li>
+            </ul>
+            <p>Descubre más sobre estos fenómenos en <a class="link" href="https://www.nasa.gov/" target="_blank">NASA</a>.</p>
+        </section>
+        <section id="recursos">
+            <h2>Recursos Adicionales</h2>
+            <p>Aquí hay algunos recursos útiles para aprender más sobre astronomía:</p>
+            <ul>
+                <li><a class="link" href="https://hubblesite.org/" target="_blank">Hubble Space Telescope</a></li>
+                <li><a class="link" href="https://www.space.com/" target="_blank">Space.com</a></li>
+                <li><a class="link" href="https://www.astronomy.com/" target="_blank">Astronomy Magazine</a></li>
+                <li><a class="link" href="https://www.eso.org/public/" target="_blank">European Southern Observatory</a></li>
+                <li><a class="link" href="https://www.skyandtelescope.com/" target="_blank">Sky & Telescope</a></li>
+            </ul>
+        </section>
+        <button onclick="toggleInfo()">Mostrar/Ocultar Datos Curiosos</button>
+        <div id="extra-info" style="display: none;">
+            <p>¿Sabías que hay más estrellas en el universo que granos de arena en todas las playas de la Tierra?</p>
+            <p>La luz de algunas estrellas que vemos hoy puede haber viajado millones de años hasta llegar a nuestros ojos.</p>
+        </div>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form onsubmit="return validateForm()">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 ACA FINAL Blog de Astronomía. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        // Alerta bienvenida
+        window.onload = function() {
+            alert("¡Bienvenido al fascinante mundo de la Astronomía!");
+        };
+
+        // Mostrar/Ocultar información adicional
+        function toggleInfo() {
+            const extraInfo = document.getElementById("extra-info");
+            if (extraInfo.style.display === "none") {
+                extraInfo.style.display = "block";
+            } else {
+                extraInfo.style.display = "none";
+            }
+        }
+
+        // Validar formulario de contacto
+        function validateForm() {
+            const email = document.getElementById("email").value;
+            if (email === "") {
+                alert("Por favor, introduce tu correo electrónico.");
+                return false;
+            }
+            return true;
+        }
+    </script>
+</body>
+</html>
